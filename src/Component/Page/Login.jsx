@@ -70,7 +70,7 @@ const Login = () => {
       <button
         onClick={handleClickGoogleLogin}
         type="submit"
-        className="bg-blue-600 text-white rounded-md py-2 px-8 font-bold text-lg my-2"
+        className="bg-blue-600 text-white rounded-md py-2 px-8 font-bold text-lg w-[400px]"
       >
         Log in with Google
       </button>

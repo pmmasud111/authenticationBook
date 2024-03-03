@@ -7,9 +7,6 @@ import { auth } from "../../Firebase";
 const Home = () => {
   const [user, loading, error] = useAuthState(auth);
   const navigate = useNavigate();
-  console.log("test", user);
-  console.log(loading);
-
   const handleSingout = () => {
     signOut(auth).then(() => {
       navigate("/login");
